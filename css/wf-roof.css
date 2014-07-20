@@ -4,7 +4,6 @@
   top: 0px;
   width: 100%;
   z-index: 9000;
-  
 }
 
 #wf-roof img {max-width: 100%;}
@@ -18,18 +17,20 @@
 #wf-roof h3,
 #wf-roof h4 { font-weight: normal;}
 
+
+#wf-roof .wf-roof-container { display: none; }
 #wf-roof .wf-roof-container { 
-  display: table;
   width: 100%;
   padding: 30px 20px;
   color: #999999;
   background-color: #444444;
 }
 
-#wf-roof.closed .wf-roof-container { display: none; }
+
 
 #wf-roof #wf-roof-main-logo { display: block; margin-bottom: 20px;}
 #wf-roof .wf-roof-col { float: left;}
+#wf-roof .wf-roof-col span { display: block;}
 #wf-roof .wf-roof-col span em {width: 50px; display: inline-block; color: #666;}
 #wf-roof .wf-roof-adress { margin-right: 30px;}
 #wf-roof .wf-roof-col-1 { width: 36%; margin-right: 4%;}
@@ -54,25 +55,24 @@
 
 
 @media(max-width:767px) {
-  
+  #wf-roof { text-align: center;}
   #wf-roof .wf-roof-trigger {
     width: 100%;
     background-image: none;
     height: 20px;
     bottom: -20px;
   }
+  #wf-roof .wf-roof-col span { display: inline-block;}
   
   #wf-roof #wf-roof-main-logo {
-    float: left;
     margin-bottom: 20px;
-    margin-right: 30px;
   }
   
   #wf-roof h1,
   #wf-roof h2,
   #wf-roof h3,
   #wf-roof h4 { font-size: 12px; margin: 20px 0;}
-  #wf-roof .wf-roof-col { float: left;}
+  #wf-roof .wf-roof-col { float: none;}
   #wf-roof .wf-roof-col-1,
   #wf-roof .wf-roof-col-2 { width: 100%; margin-right: 0;}
   #wf-roof .wf-roof-trigger i.wf-caret { right: 20px; top: 5px;}

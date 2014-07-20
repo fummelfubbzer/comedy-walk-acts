@@ -74,6 +74,8 @@ a:focus {
   opacity: 0.7;
 }
 
+img { max-width: 100%;}
+
 .intro a:hover,
 .intro a:focus {
   opacity: 1.0;
@@ -202,16 +204,20 @@ a:focus {
         padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
-        background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
-
+    
+    body.index .navbar { 
+      background: 0 0;
+      -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
+        background-color: #000 !important;
     }
+    
 
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
@@ -396,10 +402,15 @@ footer#main-footer { line-height: 80px; background-color: #666666;}
     ul.banner-social-buttons {
         margin-top: 15px;
     }
+    .navbar-brand {
+      width: 100px;
+    }
+    .navbar-custom .nav li a { font-size: 16px; padding: 0 12px;}
 }
 
+
 @media(max-width:767px) {
-  .intro { margin-top: 130px;}
+  .navbar-toggle { margin-top: 30px;}
   .navbar-custom .nav li a { font-size: 15px; line-height: 26px;}
   .content-section .section-call2action { margin-bottom: -135px;}
   .section-call2action .btn {
@@ -407,6 +418,11 @@ footer#main-footer { line-height: 80px; background-color: #666666;}
     line-height: 20px;
     padding: 15px 20px;
     width: 80%;
+  }
+  
+  .rating .description {
+    line-height: 24px;
+    font-size: 18px;
   }
   
   
@@ -418,6 +434,18 @@ footer#main-footer { line-height: 80px; background-color: #666666;}
 
     ul.banner-social-buttons>li:last-child {
         margin-bottom: 0;
+    }
+    
+    .intro { height: 500px;}
+    
+    .intro-body .intro-body-wrapper {
+      position: absolute;
+      width: 100%;
+      top: 109px;
+    }
+    
+    .intro-body {
+      position: relative;
     }
 }
 
