@@ -52,7 +52,12 @@
 #wf-roof .wf-roof-trigger i.wf-caret { width: 16px; height: 10px; background: #ff8401 url("../img/wf-roof/caret-sprite.png") no-repeat left top; display: inline-block; position: absolute; right: 10px; top: 15px; }
 #wf-roof.open .wf-roof-trigger i.wf-caret { background-position: 0px -10px;}
 
-
+@media(max-width:1300px) {
+  #wf-roof.wf-collapse .wf-roof-trigger{
+    background-image: none;
+    width: 40px;
+  }
+}
 
 @media(max-width:767px) {
   #wf-roof { text-align: center;}

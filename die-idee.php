@@ -35,13 +35,13 @@
       </div>
       <div class="row" style="padding-bottom: 30px;">
         <div class="col-md-4">
-          <img src="img/sample.jpg" />
+          <a href="img/sample.jpg" class="fancybox" rel="gallery"><img src="img/sample.jpg" /></a>
         </div>
         <div class="col-md-4">
-          <img src="img/sample.jpg" />
+           <a href="img/sample.jpg" class="fancybox" rel="gallery"><img src="img/sample.jpg" /></a>
         </div>
         <div class="col-md-4">
-          <img src="img/sample.jpg" />
+           <a href="img/sample.jpg" class="fancybox" rel="gallery"><img src="img/sample.jpg" /></a>
         </div>
       </div>
       

@@ -94,11 +94,21 @@ img { max-width: 100%;}
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    background-color: #000;
+    background-color: #333;
     font-size: 20px;
+    
 }
 
+
+
 .navbar-nav { margin-top: 43px;}
+.navbar.top-nav-collapse {
+  min-height: 37px;
+  font-size: 14px;
+  padding: 0;
+}
+.navbar.top-nav-collapse .navbar-nav { margin-top: 10px;}
+
 
 .navbar-brand {
     font-weight: 700;
@@ -107,6 +117,14 @@ img { max-width: 100%;}
 .navbar-brand:focus {
     outline: 0;
 }
+
+
+.navbar.top-nav-collapse .navbar-brand {
+  position: absolute;
+  padding: 5px;
+}
+
+.navbar.top-nav-collapse .navbar-brand img { height: 65px;}
 
 .navbar-custom a {
     color: #fff;
@@ -149,8 +167,8 @@ img { max-width: 100%;}
 .rating .description {
   font-family: "utopia-std","Helvetica Neue",Georgia,"Times New Roman",serif;
   font-style: italic;
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 26px;
   margin-bottom: 20px;
 }
 
@@ -213,9 +231,10 @@ img { max-width: 100%;}
       transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
     
-    .top-nav-collapse {
+    
+    body.index .navbar.top-nav-collapse {
         padding: 0;
-        background-color: #000 !important;
+        background-color: #333333;
     }
     
 
@@ -231,8 +250,8 @@ img { max-width: 100%;}
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/comedy-kellner-1.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    background: url(../img/comedy-kellner-1.jpg) no-repeat center center scroll;
+    background-color: #444444;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -397,7 +416,9 @@ footer#main-footer { line-height: 80px; background-color: #666666;}
 .banner-social-buttons {
     margin-top: 0;
 }
-
+@media(min-width: 1024px) and (max-width:1400px) {
+  .navbar.top-nav-collapse .navbar-nav {padding-right: 160px;}
+}
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         margin-top: 15px;
@@ -406,11 +427,15 @@ footer#main-footer { line-height: 80px; background-color: #666666;}
       width: 100px;
     }
     .navbar-custom .nav li a { font-size: 16px; padding: 0 12px;}
+    
 }
 
+@media(max-width:1024px) {
+  .navbar-custom.top-nav-collapse  .nav li a {font-size: 14px; padding: 0 11px 0 18px;}
+}
 
 @media(max-width:767px) {
-  .navbar-toggle { margin-top: 30px;}
+  .navbar-toggle { margin-top: 18px;}
   .navbar-custom .nav li a { font-size: 15px; line-height: 26px;}
   .content-section .section-call2action { margin-bottom: -135px;}
   .section-call2action .btn {
@@ -419,6 +444,7 @@ footer#main-footer { line-height: 80px; background-color: #666666;}
     padding: 15px 20px;
     width: 80%;
   }
+  
   
   .rating .description {
     line-height: 24px;
@@ -436,18 +462,30 @@ footer#main-footer { line-height: 80px; background-color: #666666;}
         margin-bottom: 0;
     }
     
-    .intro { height: 500px;}
     
+    
+    .intro {
+      display: block;
+      height: 267px;
+      margin-top: 96px;
+      background-position: center center;
+      -webkit-background-size: 100% auto;
+      -moz-background-size: 100% auto;
+      background-size: 100% auto;
+      -o-background-size: 100% auto;
+    }
+    .navbar-nav { margin: 0px;}
+    .navbar-collapse {padding: 0;}
+    .navbar-nav li { text-align: center; border-bottom: 1px solid #444;}
     .intro-body .intro-body-wrapper {
-      position: absolute;
-      width: 100%;
-      top: 109px;
+      display: none;
     }
     
     .intro-body {
       position: relative;
     }
 }
+
 
 ::-moz-selection {
     text-shadow: none;

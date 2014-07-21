@@ -10,7 +10,7 @@
           <div class="intro-body-wrapper">
             <div class="container">
                 <div class="row">
-                  <div class="col-md-3">
+                  <div class="col-md-3 col-sm-4">
                     <img src="img/siegel-tmp.png" />
                   </div>
                   <div class="col-md-9 hidden-xs">

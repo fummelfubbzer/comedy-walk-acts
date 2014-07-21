@@ -26,6 +26,7 @@
 
     <!-- Custom Theme CSS -->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
     <link href="css/wf-roof.css" rel="stylesheet">
 
 </head>
@@ -64,7 +65,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="/">
-                    <img src="img/comedy-kellner-logo.png" id="logo" />
+                    <img src="img/comedy-kellner-logo-border.png" id="logo" />
                     <!-- <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap -->
                 </a>
             </div>

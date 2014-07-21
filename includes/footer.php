@@ -27,6 +27,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/script.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
     <script src="js/wf-roof.js"></script>
 
 </body>

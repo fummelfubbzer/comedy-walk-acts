@@ -29,9 +29,19 @@ WFRoot = {
     })
   },
 
+  
 
 };
 
+//jQuery to collapse the navbar on scroll
+$(window).scroll(function() {  
+    
+    if ($("#wf-roof").offset().top > 50) {
+        $("#wf-roof").addClass("wf-collapse");
+    } else {
+        $("#wf-roof").removeClass("wf-collapse");
+    }
+});
 
 $(document).ready(function() {
 
