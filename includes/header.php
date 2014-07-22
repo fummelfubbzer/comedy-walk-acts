@@ -32,6 +32,13 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom" class="<?php if( isset($body_class) && $body_class != '' ) { echo $body_class; }; ?>">
+  <script type="text/javascript">
+    (function() {
+      var ra = document.createElement('script'); ra.type = 'text/javascript'; ra.async = true;
+      ra.src = 'http://www.rate5.me/anbieterprofile/bohlen-design/siegel.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ra, s);
+    })();
+  </script>
     
     <div id="wf-roof">
       <div class="wf-roof-container">

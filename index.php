@@ -10,10 +10,10 @@
           <div class="intro-body-wrapper">
             <div class="container">
                 <div class="row">
-                  <div class="col-md-3 col-sm-4">
-                    <img src="img/siegel-tmp.png" />
+                  <div class="col-md-3 col-sm-4 hidden-xs" id="rate5_container">
+                      <div id="r5_rating_box" style="position:relative;"><a href="http://www.rate5.me/bohlen-design" id="profile_link"><img alt="Rate5 Siegel" src="http://assets.rate5.me/r5_seal_default.png" /></a><a href="http://www.rate5.me" id="rate5_link" style="background-color: #CCCCCC;bottom: 15px;color: #444444;display: inline-block;font-family: helvetica,sans-serif;font-size: 13px;left: 9px;line-height: 30px;position: absolute;text-align: center;text-decoration: none;width: 160px;">rate5.me</a></div>
                   </div>
-                  <div class="col-md-9 hidden-xs">
+                  <div class="col-md-9 hidden-xs" >
                     
                     <!-- rate5 bewertung bitte ersetzten -->
                     <div class="rating public-rating" id="rating_96" itemscope="itemscope" itemtype="http://schema.org/Review">
@@ -40,7 +40,7 @@
         </div>
     </section>
 
-    <section id="about" class="content-section">
+    <section id="about" class="content-section first">
         <div class="container">
           <div class="row">
               <div class="col-lg-9 col-lg-offset-3">
@@ -60,7 +60,7 @@
             <div class="container">
                 <div class="col-md-10 col-md-offset-1">
                     <h2>Das sagen unsere Zuschauer</h2>
-                    
+                    <div id="rate5_target"></div>
                     <!-- rate5 bewertung bitte ersetzten -->
                     <div class="rating public-rating" id="rating_96" itemscope="itemscope" itemtype="http://schema.org/Review">
                       <ul class="stars normal" style="width: 125.0px;"><li class="current_rating" style="width: 120.0px;" title="5,0">

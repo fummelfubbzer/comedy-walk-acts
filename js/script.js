@@ -9,8 +9,22 @@ $(window).scroll(function() {
     }
 });
 
+appendRate5 = function(){
+	if ($(".hidden-xs").css("display") == "none" ){
+    $('#r5_rating_box').appendTo("#rate5_target");
+	} else { 
+    $('#r5_rating_box').appendTo("#rate5_container");
+  }
+}
+
+$(window).resize(function(){	
+	appendRate5();
+});
+
 //jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+   
+   appendRate5();
     
     $("body").not(".index").css("margin-top","120px");
     

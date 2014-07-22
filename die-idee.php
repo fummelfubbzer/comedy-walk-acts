@@ -4,7 +4,7 @@
 ?>
 
 
-<section class="content-section">
+<section class="content-section first">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -12,6 +12,9 @@
         </div>
       </div>
       <div class="row">
+        <div class="col-lg-4">
+          <img src="img/sample.jpg" />
+        </div>
         <div class="col-lg-8 ">
           
           <p>
@@ -19,9 +22,7 @@
 
             <p>Wir haben ein großes Ensemble: Buchen Sie 1 oder bis zu 25 Comedy Kellner.</p>
         </div>
-        <div class="col-lg-4">
-          <img src="img/sample.jpg" />
-        </div>
+        
       </div>
     </div>
 </section>
