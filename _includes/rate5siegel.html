@@ -1,0 +1,32 @@
+
+{% assign total_ratings = 22 %}
+{% assign ratings_avg =  "4,8" %}
+
+<div class="medium r5_ratings_box {%if include.align == 'center' %}center-block{% endif%}" data-theme="normal" itemscope="" itemtype="https://data-vocabulary.org/Review-aggregate">
+<div class="r5-seal-logo">
+Rate5.me
+</div>
+<div class="r5_seal_content">
+<div class="header">Kundenstimmen</div>
+<h4 itemprop="v:itemreviewed"><span class="first_line">Walk Factory GmbH</span><span class="second_line"></span><span class="service_title">Zauberkünstler</span></h4>
+<ul class="stars normal" style="width: 125.0px;"><li class="current_rating" style="width: 118.62745098039215px;" title="{{page.ratings_avg}}"><span>{{ratings_avg}}</span> / <span itemprop="best">5</span></li></ul>
+<div class="label_star">
+„Sehr empfehlenswert“
+</div>
+<div class="rating" itemprop="rating" itemscope="" itemtype="https://data-vocabulary.org/Rating">
+<span class="average" itemprop="average">
+{{page.ratings_avg}}
+</span>
+von
+<span class="best">5,0</span>
+aus
+<span class="votes" itemprop="votes"><span itemprop="votes">{{total_ratings}}</span> Bewertungen</span>
+<div class="item" style="display: none;">
+<meta content="www.walk-factory.de" itemprop="url">
+<span class="fn">Walk Factory GmbH</span>
+<span class="photo"><img itemprop="photo" src="https://s3-eu-west-1.amazonaws.com/assets.rate5.me/attachments/57/thumb/wf-logo.png?1498120568" alt="Wf logo"></span>
+</div>
+<a class="r5_profile_link" target="_blank" href="https://www.rate5.me/anbieterprofile/walk-factory-gmbh/leistungen/zauberkunstler">Kundenstimmen lesen</a>
+</div>
+</div>
+</div>
