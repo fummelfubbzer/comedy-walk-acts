@@ -1,0 +1,142 @@
+/*Themes:
+
+Normal: #363B3F
+Blue:    #4BAAD3
+Orange:  #D35400
+Green:   #27AE60
+dark: #000
+*/
+
+.r5_ratings_box ul.stars { margin: 2px auto 4px; padding: 0; list-style: none; text-indent: -20000px; height: 25px; background: url("../img/star-sprite.png") left top;}
+.r5_ratings_box ul.stars li { margin-right: -1px; text-indent: -20000px; height: 25px; background: url("../img/star-sprite.png") left bottom;}
+
+.r5_ratings_box ul.stars.small {height: 20px; background: url("../img/star-sprite-small.png") left top; }
+.r5_ratings_box ul.stars.small li {height: 25px; background: url("../img/star-sprite-small.png") left bottom; }
+
+.r5_star_rating b {
+  float: left;
+  margin-bottom: -100%;
+  background-color: #f29400;
+}
+
+.r5_ratings_box {
+  background: url("../img/r5_seal_background.png") left top;
+  font-family: arial,sans-serif !important;
+  font-size: 10px;
+  line-height: 21px;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  width: 180px;
+  height: 187px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius:    6px;
+  border-radius:         6px;
+  color: #444;
+  border: 2px solid #363B3F;
+}
+.r5_ratings_box h4 {font-family: arial,sans-serif !important;}
+
+.r5_ratings_box .r5-seal-logo {
+  height: 47px;
+  text-align: center;
+  text-indent: -20000px;
+  background: #363B3F url("../img/r5_seal_logo.png") no-repeat center center;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.r5_ratings_box .r5_seal_content {
+  padding: 9px 5px;
+}
+
+.r5_ratings_box ul.stars li { font-size: 30px; }
+
+.r5_ratings_box h4,
+.r5_ratings_box .votes,
+.r5_ratings_box .rating {
+  font-size: 10px;
+  font-weight: normal;
+  margin: 0;
+}
+.r5_ratings_box .label_star { font-size: 12px; line-height: 13px;}
+.r5_ratings_box h4 { font-size: 11px; line-height: 13px; font-weight: bold; text-transform: none; margin: 3px 0 0 0;}
+.r5_ratings_box h4 span {display: block; }
+.r5_ratings_box h4 span.service_title { font-weight: normal; font-style: italic; font-size: 10px;}
+
+.r5_ratings_box .summary {
+  text-align: left;
+  margin-top: 8px;
+  border-top: 1px solid #ccc;
+  padding-top: 8px;
+  font-style: italic;
+}
+
+.r5_ratings_box .label_star {
+  font-weight: bold;
+}
+.r5_ratings_box { background-color: white;}
+.r5_ratings_box .header { line-height: 11px;}
+
+.r5_ratings_box a.r5_badge { 
+  display: block;
+  width: 100%;
+  line-height: 18px;
+  font-size: 10px;
+  position: absolute; 
+  bottom: 0; 
+  left: 0;
+  color: white;
+  height: 20px;
+  background-color: #444;
+  overflow: hidden;
+}
+
+.r5_ratings_box a.r5_profile_link {
+  bottom: 9px;
+  color: #F09200;
+  display: 
+  inline-block;
+  font-family: helvetica,sans-serif;
+  font-size: 10px;
+  left: 9px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  width: 160px;
+}
+
+.r5_ratings_box a.r5_profile_link:hover { text-decoration: underline;}
+
+
+.r5_ratings_box .votes {margin-left: 2px;}
+.r5_ratings_box .rating {
+  display: inline;
+  border: none;
+}
+
+/*Themes:
+
+Normal: #363B3F
+Blue:    #4BAAD3
+Orange:  #D35400
+Green:   #27AE60
+dark: #000
+*/
+
+.r5_ratings_box[data-theme=blue] { border-color: #4BAAD3; }
+.r5_ratings_box[data-theme=blue] .r5-seal-logo { background-color: #4BAAD3;}
+
+.r5_ratings_box[data-theme=orange] { border-color: #D35400; }
+.r5_ratings_box[data-theme=orange] .r5-seal-logo { background-color: #D35400;}
+
+.r5_ratings_box[data-theme=green] { border-color: #27AE60; }
+.r5_ratings_box[data-theme=green] .r5-seal-logo { background-color: #27AE60;}
+
+.r5_ratings_box[data-theme=dark] { border-color: #444444; background-color: #222222; color: white; background-image: none;}
+.r5_ratings_box[data-theme=dark] .r5-seal-logo { background-color: #000; border-bottom: 1px solid #333;  }
